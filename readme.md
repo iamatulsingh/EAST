@@ -1,3 +1,5 @@
+[![built with Tensroflow 2.1.0](https://img.shields.io/badge/bumped%20to-Tensorflow2.1.0-red.svg)](https://www.tensorflow.com/)
+
 # EAST: An Efficient and Accurate Scene Text Detector
 
 >NOTE: I'm not a original Author. This repository is forked from https://github.com/argman/EAST. 
