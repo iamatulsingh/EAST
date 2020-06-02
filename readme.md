@@ -1,5 +1,11 @@
 # EAST: An Efficient and Accurate Scene Text Detector
 
+>NOTE: I'm not a original Author. This repository is forked from https://github.com/argman/EAST. 
+
+## UPDATE
++ Bumped Tensorflow version to 2.1.0
++ Minor change in web page.
+
 ### Introduction
 This is a tensorflow re-implementation of [EAST: An Efficient and Accurate Scene Text Detector](https://arxiv.org/abs/1704.03155v2).
 The features are summarized blow:
@@ -97,4 +103,3 @@ Here are some test examples on icdar2015, enjoy the beautiful text boxes!
 + How to compile lanms on Windows ?
   + See https://github.com/argman/EAST/issues/120
 
-Please let me know if you encounter any issues(my email boostczc@gmail dot com).
