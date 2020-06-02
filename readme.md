@@ -7,6 +7,7 @@
 ## UPDATE
 + Bumped Tensorflow version to 2.1.0
 + Minor change in web page.
++ Tested on Ubuntu 20.04 and Windows 10
 
 ### Introduction
 This is a tensorflow re-implementation of [EAST: An Efficient and Accurate Scene Text Detector](https://arxiv.org/abs/1704.03155v2).
