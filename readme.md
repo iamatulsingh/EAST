@@ -104,5 +104,23 @@ Here are some test examples on icdar2015, enjoy the beautiful text boxes!
 
 ### Troubleshooting
 + How to compile lanms on Windows ?
-  + See https://github.com/argman/EAST/issues/120
+  Environment is: windows10 , python3.6 (ps:I use Anaconda3), vs2015 Update 3 (ps: Visual Studio version should be vs2015 Update 3 or newer)
 
+Step 1:Open the console make sure you can use X64 compiler:cl.exe(note: not X86, not X86, not X86 )
+<img src="https://user-images.githubusercontent.com/21698321/37662946-260936a0-2c93-11e8-8d45-002e7e64bd4b.png">
+<img src="https://user-images.githubusercontent.com/21698321/37663384-1008a29a-2c94-11e8-8753-beef787cf84a.jpg">
+
+Step 2:to compile adaptor.cpp to adaptor.pyd
+execute:cd your_dir\lanms
+execute:cl adaptor.cpp ./include/clipper/clipper.cpp /I ./include /I "C:\ProgramData\Anaconda3\include" /LD /Fe:adaptor.pyd /link/LIBPATH:"C:\ProgramData\Anaconda3\libs"
+<img src="https://user-images.githubusercontent.com/21698321/37664319-12e9269a-2c96-11e8-8eeb-58d21902ef27.JPG">
+
+ok,adaptor.pyd appears！
+
+Step 3:comment some code in __init__.py
+comment line7 and line8
+<img src="https://user-images.githubusercontent.com/21698321/37664722-d72f6848-2c96-11e8-8354-82523e42ac37.JPG">
+
+Step 4:Congratulations! You can import lanms.
+
+<a href="https://github.com/argman/EAST/issues/120">Original Thread</a>
